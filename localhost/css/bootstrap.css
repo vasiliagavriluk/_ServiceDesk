@@ -1,0 +1,290 @@
+.row{
+    display: flex;
+    width: -webkit-fill-available;
+}
+
+.mess{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: auto;
+    word-wrap: break-word;
+    color: rgba(255,255,255,.5);
+    background-clip: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1px;
+}
+
+.mess-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.border-start-lg {
+    border-left-width: 0.25rem !important;
+}
+.border-start-primary {
+    border-left-color: #0061f2 !important;
+}
+.border-start-secondary {
+    border-left-color: #6900c7 !important;
+}
+.border-start-success {
+    border-left-color: #00ac69 !important;
+}
+
+.bg-success{
+    background-color: #198754!important;
+}
+.bg-danger {
+    background-color: #dc3545!important;
+}
+
+.text-decoration-none {
+    text-decoration: none!important;
+}
+
+
+.px-0{
+    overflow-x: hidden;
+    height: auto;
+}
+
+.c77{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(255 255 255 / 50%);
+    width: inherit;
+    margin: 18px 10px 0px 10px;
+    height:max-content;
+}
+
+
+
+
+
+
+
+.c77-header {
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    background-color: rgba(33, 40, 50, 0.03);
+    border-bottom: 1px solid rgb(255 255 255 / 50%);
+}
+.c77-body{
+    border-bottom: 1px solid rgb(255 255 255 / 50%);
+}
+
+.c77-flex{
+    display: flex!important;
+    padding: 10px 25px 5px 12px;
+}
+
+
+.c77-icons{
+    width: 45px;
+    padding-right: 15px;
+    content: url('https://api.iconify.design/file-icons/1c.svg?color=%23ff3');
+}
+
+#c77-status{
+    padding: 10px;
+    width: 112px;
+    text-align: center!important;
+}
+
+.c77-data{
+    width: 212px;
+    text-align: center;
+}
+.c77-item{
+    width: 350px;
+}
+
+
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.align-items-center {
+    align-items: center!important;
+    text-align: left!important;
+}
+
+
+
+
+
+
+/*mail*/
+.mailbox {
+    position: fixed;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(255 255 255 / 50%);
+    margin: 18px 10px 90px 10px;
+}
+
+
+.mailbox-toolbar {
+    padding: 0.75rem;
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.mailbox-toolbar-item {
+    padding: 0.5rem;
+}
+.mailbox-toolbar-text {
+    color: rgba(255,255,255,.5);
+    padding: 0.5rem;
+}
+
+
+.mailbox-row{
+    display: flex;
+    width: -webkit-fill-available;
+    height: 92%;
+    padding: 0px 0px 62px 0px;
+}
+
+
+.mailbox-body {
+    display: flex;
+    overflow-x: hidden;
+    /*width: 360px;*/
+    /*flex: 1;*/
+}
+.mailbox-sidebar {
+/*    max-width: 22.5rem;*/
+    height: 100%;
+/*    border: 1px solid rgb(255 255 255 / 50%);*/
+}
+.mailbox-list {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(255 255 255 / 50%);
+    margin: 0;
+    padding: 0;
+}
+.mailbox-list-item.active {
+    background: rgba(255,255,255,.1);
+}
+.mailbox-list-item {
+    padding: 1rem;
+    display: flex;
+}
+.mailbox-checkbox {
+    position: relative;
+}
+.mailbox-sender {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.mailbox-title {
+    color: rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 18.125rem;
+}
+.mailbox-desc {
+    position: relative;
+    font-size: .8125rem;
+    color: rgba(255,255,255,.5);
+    max-height: 2.625rem;
+    overflow: hidden;
+}
+
+.mailbox-checkbox+.mailbox-message {
+    padding-left: 0.5rem;
+    width: -webkit-fill-available;
+}
+
+.mailbox .mailbox-list .mailbox-message .mailbox-sender .mailbox-sender-name {
+    font-weight: 600;
+    color: #3cd2a5;
+    flex: 1;
+    margin-right: auto;
+}
+.mailbox .mailbox-list .mailbox-message .mailbox-sender .mailbox-time {
+    font-size: .75rem;
+    color: rgba(255,255,255,.5);
+    font-weight: 400;
+    padding-left: 0.5rem;
+}
+
+
+.mailbox-content {
+    height: 100%;
+    flex: 1;
+    border-left: 1px solid rgba(255,255,255,.3);
+}
+
+
+.mailbox-detail-header {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 0 0 1.5rem;
+}
+
+.mailbox-detail-content {
+    padding: 0.5rem;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+/*.mailbox-detail-subject{
+    margin-left: 1rem!important;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}*/
+
+
+
+.ms-3 {
+    margin-left: 1rem!important;
+}
+.flex-fill {
+    flex: 1 1 auto!important;
+}
+.text-lg-end {
+    text-align: right!important;
+    position: relative;
+    margin-left: auto;
+}
+.text-opacity-50 {
+    --bs-text-opacity: 0.5;
+}
+.fs-12px {
+    font-size: 12px!important;
+}
+
+
+
+@media (min-width: 831px)
+{
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    .mb-4{
+        padding: 18px 10px 0px 10px;
+        height: -webkit-fill-available;
+    }
+}

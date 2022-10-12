@@ -1,0 +1,40 @@
+Options -Indexes
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+<IfModule mod_charset.c>
+CharsetSourceEnc utf-8
+CharsetDefault utf-8
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php
+
+
+ErrorDocument 404 "<H1>Page not found</H1>"
+
+
+
+
+
+
+
+
+
+#RewriteEngine on
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !(\.jpg|\.jpeg|\.gif|\.png|\.ico|\.css|\.js)$ [NC]
+#RewriteRule (.*)$  index.php/$1 [L,QSA]
+
+#Options -Indexes
+
+#php_flag register_globals off
+#php_flag magic_quotes_gpc off
+
+
+
+#RewriteRule (.*)$ index.php/ [L,QSA]
+#RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
